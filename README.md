@@ -84,7 +84,7 @@ This challenge assignment examines the use of supervised machine learning to cat
 
 Unfortunately, I was unable to get the final resampling technique to function properly. As shown here, the error message indicated that the classifier object I imported does not have an attribute called "n_features_in_" that the "fit" function requires to execute properly.
 
-![Easy Ensemble Classifier documentation](https://github.com/tfish110/Credit_Risk_Analysis/blob/main/Resources/easy_ensemble_classifier_error.jpg)
+![Easy Ensemble Classifier documentation](https://github.com/tfish110/Credit_Risk_Analysis/blob/main/Resources/easy_ensemble_classifier_documentation.jpg)
 
 Here, in the documentation for Easy Ensemble Classifier, the attributes listed seem to indicate that "n_feautres_in_" should indeed be present for the "fit" function to utilize, so I'm not sure why it didn't run properly. I was under the assumption that the documentation page cited here that the module and challenge materials directed me to would be for the same version as I was instructed to import. But, I suspect that assumption may not be true, since the "n_features_" entry in the list attributes is very similar to the one flagged in the error message. As per this documentation, it seems like "n_features_in_" should have replaced "n_features_" but the error seems to indicate that I do not have the correct version of this library imported.
 
